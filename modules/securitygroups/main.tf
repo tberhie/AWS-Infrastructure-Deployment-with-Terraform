@@ -22,7 +22,7 @@ resource "aws_security_group" "nginx_sg" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["203.0.113.4/32", "18.206.107.24/29"]  # Replace with your actual IP
+    cidr_blocks = ["203.0.113.4/32", "18.206.107.24/29"]
   }
 
   # Allow all outbound traffic
